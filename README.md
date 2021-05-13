@@ -1,6 +1,6 @@
 # NLP--Message-SPAM-or-HAM
 
-This ipynb file is an implementation of the Natural Langauge Processing project.
+This ipynb file contains implementation and results for Natural Langauge Processing project.
 
 The Problem Statement here asks us to classify the messages as HAM or SPAM.
 
