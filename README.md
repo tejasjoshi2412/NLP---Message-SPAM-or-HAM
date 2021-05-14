@@ -62,9 +62,29 @@ Note: the messages are not chronologically sorted.
 
 Results:
 
-Classification Report:
+1. Multinomial Naive Bayes:
+
+a. Classification Report:
 
               precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98      1207
+        spam       1.00      0.76      0.86       186
+
+    accuracy                           0.97      1393
+   macro avg       0.98      0.88      0.92      1393
+weighted avg       0.97      0.97      0.97      1393
+
+b. Confusion Matrix:
+
+[[1207    0]
+ [  45  141]]
+
+2. Random Forest Classifer:
+
+a. Classification Report: 
+
+          precision    recall  f1-score   support
 
          ham       0.97      1.00      0.99      1207
         spam       1.00      0.81      0.90       186
@@ -73,7 +93,7 @@ Classification Report:
    macro avg       0.99      0.91      0.94      1393
 weighted avg       0.98      0.97      0.97      1393
 
-Confusion Matrix:
+b. Confusion Matrix:
 
-[[1207   0]
+[[1207    0]
  [  35  151]]
